@@ -98,9 +98,14 @@ public class menu{
                     listaTabelaDeJogos(tabelaJogos);
                     break;
                 case 2:
+                    //lista equipes participantes
+                case 3:
+                    //lista estádios com aeroportos próximos
+                case 4:
+                    //lista estádios com hotéis próximos
+                case 5:
                     sairDoSistema = true;
-                    break;
-    
+                    break;      
             }
 
         }
