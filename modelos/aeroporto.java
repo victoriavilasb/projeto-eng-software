@@ -11,6 +11,6 @@ public class aeroporto {
 
     public aeroporto(aeroporto inputAeroporto){
 
-        this.nome = inputPartida.nome;
+        this.nome = inputAeroporto.nome;
     }
 }

@@ -13,7 +13,7 @@ public class equipe {
 
     public equipe(equipe inputEquipe){
 
-        this.nome = inputPartida.nome;
-        this.tecnico = inputPartida.tecnico;
+        this.nome = inputEquipe.nome;
+        this.tecnico = inputEquipe.tecnico;
     }
 }

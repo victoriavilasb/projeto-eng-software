@@ -15,8 +15,8 @@ public class hotel {
 
     public hotel(hotel inputHotel){
 
-        this.nome = inputPartida.nome;
-        this.vagas = inputPartida.vagas;
-        this.diariaInicial = inputPartida.diariaInicial;
+        this.nome = inputHotel.nome;
+        this.vagas = inputHotel.vagas;
+        this.diariaInicial = inputHotel.diariaInicial;
     }
 }

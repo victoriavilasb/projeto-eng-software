@@ -12,6 +12,8 @@ public class estadio {
     public Integer numero;
 
     public ArrayList<partida> partidasMarcadas;
+    public ArrayList<aeroporto> aeroportosProximos;
+    public ArrayList<hotel> hoteisProximos;
 
     public estadio(){
 
@@ -23,6 +25,8 @@ public class estadio {
         this.numero = 0;
 
         this.partidasMarcadas = new ArrayList<partida>();
+        this.aeroportosProximos = new ArrayList<aeroporto>();
+        this.hoteisProximos = new ArrayList<hotel>();
     }
 
     public estadio(estadio inputEstadio){
@@ -35,5 +39,7 @@ public class estadio {
         this.numero = inputEstadio.numero;
 
         this.partidasMarcadas = inputEstadio.partidasMarcadas;
+        this.aeroportosProximos = inputEstadio.aeroportosProximos;
+        this.hoteisProximos = inputEstadio.hoteisProximos;
     }
 }
