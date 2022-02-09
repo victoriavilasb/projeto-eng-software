@@ -1,8 +1,8 @@
 package modelos;
 import java.util.ArrayList;
 
-public class tabelaJogos {
+public class TabelaJogos {
     
-    public ArrayList<estadio> estadiosCopa = new ArrayList<estadio>();
-    public ArrayList<equipe> equipesParticipantes = new ArrayList<equipe>();
+    public ArrayList<Estadio> estadiosCopa = new ArrayList<Estadio>();
+    public ArrayList<Equipe> equipesParticipantes = new ArrayList<Equipe>();
 }

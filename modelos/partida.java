@@ -1,20 +1,20 @@
 package modelos;
 
-public class partida {
+public class Partida {
     
     public String data;
     public String horario;
     public String valorIngresso;
     public String confronto;
 
-    public partida(){
+    public Partida(){
 
         this.data = "";
         this.horario = "";
         this.valorIngresso = "";
     }
 
-    public partida(partida inputPartida){
+    public Partida(Partida inputPartida){
 
         this.data = inputPartida.data;
         this.horario = inputPartida.horario;
