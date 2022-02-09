@@ -1,16 +1,21 @@
 package modelos;
 
-public class aeroporto {
-    
-    public String nome;
+public class Aeroporto {
+    private String nome;
 
-    public aeroporto(){
-
+    public Aeroporto(){
         this.nome = "";
     }
 
-    public aeroporto(aeroporto inputAeroporto){
+    public Aeroporto(String nome){
+        this.nome = nome;
+    }
 
-        this.nome = inputAeroporto.nome;
+    public String getNome () {
+        return this.nome;
+    }
+
+    public void setNome (String nome) {
+        this.nome = nome;
     }
 }
