@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-import modelos.Aeroporto;
-import modelos.Equipe;
-import modelos.Estadio;
-import modelos.Hotel;
-import modelos.Partida;
-import modelos.TabelaJogos;
+import model.Aeroporto;
+import model.Equipe;
+import model.Estadio;
+import model.Hotel;
+import model.Partida;
+import model.TabelaJogos;
 
 public class menu {
 

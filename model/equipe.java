@@ -1,4 +1,4 @@
-package modelos;
+package model;
 
 public class Equipe {
     public String nome;

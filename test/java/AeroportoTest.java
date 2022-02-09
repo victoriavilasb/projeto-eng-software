@@ -1,7 +1,7 @@
 
 package test.java;
 
-import modelos.Aeroporto;
+import model.Aeroporto;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

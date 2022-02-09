@@ -1,7 +1,7 @@
 package test.java;
 
-import modelos.Estadio;
-import modelos.Hotel;
+import model.Estadio;
+import model.Hotel;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
